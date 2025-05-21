@@ -1593,24 +1593,6 @@ section.home-carousel .swiper-slide img {
   pointer-events: none;
 }
 
-/* Responsive Styles */
-@media (min-width: 1px) and (max-width: 767.98px) {
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .indexcta-section {
-    padding: 80px 0;
-  }
-
-  .indexcta-section .indexcta-title {
-    font-size: 2.6rem;
-  }
-
-  .indexcta-section .indexcta-image-container {
-    margin-top: 3rem;
-    min-height: 350px;
-  }
-}
 /* index page ends */
 /* about page starts */
 /* About Us Section Styles */
@@ -1821,59 +1803,6 @@ section.home-carousel .swiper-slide img {
   color: #666;
   margin: 0;
 }
-
-/* Media Queries */
-@media (min-width: 1px) and (max-width: 767.98px) {
-  .fireworks-aboutus {
-    padding: 40px 0;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-heading {
-    font-size: 32px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-tagline {
-    font-size: 18px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-stat-item {
-    margin-bottom: 15px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-stat-number {
-    font-size: 28px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-stat-text {
-    font-size: 12px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-image-container {
-    margin-top: 30px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-feature-item {
-    margin-bottom: 15px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .fireworks-aboutus {
-    padding: 60px 0;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-heading {
-    font-size: 36px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-stat-number {
-    font-size: 32px;
-  }
-
-  .fireworks-aboutus .fireworks-aboutus-image-container {
-    margin-top: 40px;
-  }
-}
 /* about second section */
 /* Fireworks Contact Parallax Section Styles */
 .fireworks-contact-parallax {
@@ -2063,53 +1992,6 @@ section.home-carousel .swiper-slide img {
 .fireworks-contact-parallax .fireworks-contact-parallax-spark.spark5 {
   top: 50%;
   left: 50%;
-}
-
-/* Media Queries */
-@media (min-width: 1px) and (max-width: 767.98px) {
-  .fireworks-contact-parallax {
-    padding: 5em 0;
-    background-attachment: scroll;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-svg-top svg,
-  .fireworks-contact-parallax .fireworks-contact-parallax-svg-bottom svg {
-    height: 30px;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-heading {
-    font-size: 32px;
-    margin-bottom: 15px;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-text {
-    font-size: 16px;
-    margin-bottom: 30px;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-button {
-    padding: 12px 25px;
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .fireworks-contact-parallax {
-    padding: 6em 0;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-svg-top svg,
-  .fireworks-contact-parallax .fireworks-contact-parallax-svg-bottom svg {
-    height: 40px;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-heading {
-    font-size: 36px;
-  }
-
-  .fireworks-contact-parallax .fireworks-contact-parallax-text {
-    font-size: 17px;
-  }
 }
 /* Brands Section Styles */
 .brands-section {
@@ -2333,63 +2215,10 @@ section.home-carousel .swiper-slide img {
 /* Media Queries */
 /* For Tablets (md screens) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .brands-section .brands-section-title {
-    font-size: 2.5rem;
-  }
-
-  .brands-section .brands-section-logo {
-    width: 120px;
-    height: 120px;
-  }
-
-  .brands-section .brands-section-brand-name {
-    font-size: 1.7rem;
-  }
-
-  .brands-section .brands-section-nav {
-    left: -10px;
-    right: -10px;
-  }
 }
 
 /* For Mobile (sm screens) */
 @media (min-width: 1px) and (max-width: 767.98px) {
-  .brands-section {
-    padding: 50px 0;
-  }
-
-  .brands-section .brands-section-title {
-    font-size: 2rem;
-  }
-
-  .brands-section .brands-section-subtitle {
-    font-size: 1rem;
-  }
-
-  .brands-section .brands-section-logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .brands-section .brands-section-brand-name {
-    font-size: 1.5rem;
-  }
-
-  .brands-section .brands-section-prev-btn,
-  .brands-section .brands-section-next-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 1.2rem;
-  }
-
-  .brands-section .brands-section-nav {
-    left: 0;
-    right: 0;
-  }
-
-  .brands-section .brands-section-slide-inner {
-    padding: 20px;
-  }
 }
 
 /* about page ends */
@@ -3819,6 +3648,100 @@ section.home-carousel .swiper-slide img {
 /*************************************************************************** media query starts ****************************************************************/
 /* mobile media query */
 @media (min-width: 1px) and (max-width: 767.98px) {
+  /* about brands section */
+  .brands-section {
+    padding: 50px 0;
+  }
+
+  .brands-section .brands-section-title {
+    font-size: 2rem;
+  }
+
+  .brands-section .brands-section-subtitle {
+    font-size: 1rem;
+  }
+
+  .brands-section .brands-section-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .brands-section .brands-section-brand-name {
+    font-size: 1.5rem;
+  }
+
+  .brands-section .brands-section-prev-btn,
+  .brands-section .brands-section-next-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .brands-section .brands-section-nav {
+    left: 0;
+    right: 0;
+  }
+
+  .brands-section .brands-section-slide-inner {
+    padding: 20px;
+  }
+  /* about second */
+  .fireworks-contact-parallax {
+    padding: 5em 0;
+    background-attachment: scroll;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-svg-top svg,
+  .fireworks-contact-parallax .fireworks-contact-parallax-svg-bottom svg {
+    height: 30px;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-heading {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+  /* about page about us section */
+  .fireworks-aboutus {
+    padding: 40px 0;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-heading {
+    font-size: 32px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-tagline {
+    font-size: 18px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-stat-item {
+    margin-bottom: 15px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-stat-number {
+    font-size: 28px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-stat-text {
+    font-size: 12px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-image-container {
+    margin-top: 30px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-feature-item {
+    margin-bottom: 15px;
+  }
   /* index cta */
   .indexcta-section {
     padding: 60px 0;
@@ -4056,6 +3979,70 @@ section.home-carousel .swiper-slide img {
 }
 /* tablet media query */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* about brands */
+  .brands-section .brands-section-title {
+    font-size: 2.5rem;
+  }
+
+  .brands-section .brands-section-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .brands-section .brands-section-brand-name {
+    font-size: 1.7rem;
+  }
+
+  .brands-section .brands-section-nav {
+    left: -10px;
+    right: -10px;
+  }
+  /* about second section */
+  .fireworks-contact-parallax {
+    padding: 6em 0;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-svg-top svg,
+  .fireworks-contact-parallax .fireworks-contact-parallax-svg-bottom svg {
+    height: 40px;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-heading {
+    font-size: 36px;
+  }
+
+  .fireworks-contact-parallax .fireworks-contact-parallax-text {
+    font-size: 17px;
+  }
+  /* about page aboutus section */
+  .fireworks-aboutus {
+    padding: 60px 0;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-heading {
+    font-size: 36px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-stat-number {
+    font-size: 32px;
+  }
+
+  .fireworks-aboutus .fireworks-aboutus-image-container {
+    margin-top: 40px;
+  }
+  /* index CTA Section */
+  .indexcta-section {
+    padding: 80px 0;
+  }
+
+  .indexcta-section .indexcta-title {
+    font-size: 2.6rem;
+  }
+
+  .indexcta-section .indexcta-image-container {
+    margin-top: 3rem;
+    min-height: 350px;
+  }
   /* index safety section */
   .index-safety {
     padding: 4rem 0;
