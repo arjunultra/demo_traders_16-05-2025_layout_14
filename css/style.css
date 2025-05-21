@@ -2211,16 +2211,6 @@ section.home-carousel .swiper-slide img {
 .brands-section .swiper-wrapper {
   transition-timing-function: ease-out !important;
 }
-
-/* Media Queries */
-/* For Tablets (md screens) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-/* For Mobile (sm screens) */
-@media (min-width: 1px) and (max-width: 767.98px) {
-}
-
 /* about page ends */
 /* safety page */
 /* safety tips section */
@@ -2477,87 +2467,6 @@ section.home-carousel .swiper-slide img {
 .safety-guidelines .safety-guidelines-btn:hover {
   background-color: transparent;
   color: var(--color3);
-}
-
-/* Responsive Styles */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .safety-guidelines {
-    padding: 60px 0;
-  }
-
-  .safety-guidelines .section-title {
-    font-size: 36px;
-  }
-
-  .safety-guidelines .safety-guidelines-column {
-    padding: 25px;
-  }
-
-  .safety-guidelines .safety-guidelines-card {
-    width: calc(50% - 20px);
-    height: 200px;
-  }
-
-  .safety-guidelines .safety-guidelines-card-title {
-    font-size: 16px;
-  }
-
-  .safety-guidelines .safety-guidelines-card-text {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 1px) and (max-width: 767.98px) {
-  .safety-guidelines {
-    padding: 40px 0;
-  }
-
-  .safety-guidelines .section-title {
-    font-size: 32px;
-  }
-
-  .safety-guidelines .section-subtitle {
-    font-size: 16px;
-  }
-
-  .safety-guidelines .safety-guidelines-column {
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-
-  .safety-guidelines .safety-guidelines-column-header {
-    margin-bottom: 20px;
-  }
-
-  .safety-guidelines .safety-guidelines-card {
-    width: 100%;
-    height: 160px;
-    margin-bottom: 15px;
-  }
-
-  .safety-guidelines .safety-guidelines-card-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-  }
-
-  .safety-guidelines .safety-guidelines-card-title {
-    font-size: 16px;
-  }
-
-  .safety-guidelines .safety-guidelines-card-text {
-    font-size: 13px;
-  }
-
-  .safety-guidelines .safety-guidelines-cta {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .safety-guidelines .safety-guidelines-btn {
-    margin-top: 15px;
-    display: inline-block;
-  }
 }
 /* contact page contact section */
 /* Fireworks Contact Section Styles - Desktop First Approach */
@@ -3152,71 +3061,6 @@ section.home-carousel .swiper-slide img {
     font-size: 1rem;
   }
 }
-
-/* Responsive Styles for Mobile */
-@media (min-width: 1px) and (max-width: 767.98px) {
-  .fireworks-contact .fireworks-contact-title {
-    font-size: 1.75rem;
-  }
-
-  .fireworks-contact .fireworks-contact-subtitle {
-    font-size: 0.95rem;
-    max-width: 100%;
-  }
-
-  .fireworks-contact .fireworks-contact-badge {
-    font-size: 0.8rem;
-    padding: 0.4rem 1rem;
-  }
-
-  .fireworks-contact .fireworks-contact-card {
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .fireworks-contact .fireworks-contact-card-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .fireworks-contact .fireworks-contact-card-title {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-  }
-
-  .fireworks-contact .fireworks-contact-hours-item {
-    flex-direction: column;
-    padding: 0.75rem 0;
-  }
-
-  .fireworks-contact .fireworks-contact-map-wrapper {
-    min-height: 250px;
-  }
-
-  .fireworks-contact .fireworks-contact-directions-btn {
-    bottom: 1rem;
-    right: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-  }
-
-  .fireworks-contact .fireworks-contact-cta {
-    padding: 1.5rem;
-  }
-
-  .fireworks-contact .fireworks-contact-cta h3 {
-    font-size: 1.25rem;
-  }
-
-  .fireworks-contact .fireworks-contact-cta p {
-    font-size: 0.9rem;
-  }
-
-  .fireworks-contact .fireworks-contact-cta-btn {
-    padding: 0.75rem 1.5rem;
-    font-size: 0.9rem;
-  }
-}
 /* footer styles */
 /* Footer Section Styles - Following Desktop First Approach */
 .footer-section {
@@ -3479,62 +3323,10 @@ section.home-carousel .swiper-slide img {
 
 /* Tablet Breakpoint */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .footer-section-heading {
-    font-size: 1.3rem;
-  }
-
-  .footer-section-payment-icons {
-    gap: 10px;
-  }
-
-  .footer-section-payment-icon {
-    font-size: 20px;
-  }
-
-  .footer-section-legal-links {
-    justify-content: center;
-  }
-
-  .footer-section-legal-item {
-    padding: 0 10px;
-  }
 }
 
 /* Mobile Breakpoint */
 @media (min-width: 1px) and (max-width: 767.98px) {
-  .footer-section-heading {
-    font-size: 1.2rem;
-  }
-
-  .footer-section-heading::after {
-    width: 40px;
-  }
-
-  .footer-section-social {
-    justify-content: center;
-  }
-
-  .footer-section-legal-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .footer-section-legal-item {
-    padding: 5px 0;
-  }
-
-  .footer-section-legal-item:not(:last-child)::after {
-    display: none;
-  }
-
-  .footer-section-copyright-text {
-    text-align: center;
-  }
-
-  .footer-section-payment-icons {
-    justify-content: center;
-  }
 }
 /* utility classes */
 .text-red {
@@ -3648,6 +3440,153 @@ section.home-carousel .swiper-slide img {
 /*************************************************************************** media query starts ****************************************************************/
 /* mobile media query */
 @media (min-width: 1px) and (max-width: 767.98px) {
+  /* footer */
+  .footer-section-heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-section-heading::after {
+    width: 40px;
+  }
+
+  .footer-section-social {
+    justify-content: center;
+  }
+
+  .footer-section-legal-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-section-legal-item {
+    padding: 5px 0;
+  }
+
+  .footer-section-legal-item:not(:last-child)::after {
+    display: none;
+  }
+
+  .footer-section-copyright-text {
+    text-align: center;
+  }
+
+  .footer-section-payment-icons {
+    justify-content: center;
+  }
+  /* contact page */
+  .fireworks-contact .fireworks-contact-title {
+    font-size: 1.75rem;
+  }
+
+  .fireworks-contact .fireworks-contact-subtitle {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .fireworks-contact .fireworks-contact-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .fireworks-contact .fireworks-contact-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .fireworks-contact .fireworks-contact-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .fireworks-contact .fireworks-contact-card-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .fireworks-contact .fireworks-contact-hours-item {
+    flex-direction: column;
+    padding: 0.75rem 0;
+  }
+
+  .fireworks-contact .fireworks-contact-map-wrapper {
+    min-height: 250px;
+  }
+
+  .fireworks-contact .fireworks-contact-directions-btn {
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta {
+    padding: 1.5rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta h3 {
+    font-size: 1.25rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta p {
+    font-size: 0.9rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  /* safety page */
+  .safety-guidelines {
+    padding: 40px 0;
+  }
+
+  .safety-guidelines .section-title {
+    font-size: 32px;
+  }
+
+  .safety-guidelines .section-subtitle {
+    font-size: 16px;
+  }
+
+  .safety-guidelines .safety-guidelines-column {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .safety-guidelines .safety-guidelines-column-header {
+    margin-bottom: 20px;
+  }
+
+  .safety-guidelines .safety-guidelines-card {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+  }
+
+  .safety-guidelines .safety-guidelines-card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .safety-guidelines .safety-guidelines-card-title {
+    font-size: 16px;
+  }
+
+  .safety-guidelines .safety-guidelines-card-text {
+    font-size: 13px;
+  }
+
+  .safety-guidelines .safety-guidelines-cta {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .safety-guidelines .safety-guidelines-btn {
+    margin-top: 15px;
+    display: inline-block;
+  }
   /* about brands section */
   .brands-section {
     padding: 50px 0;
@@ -3979,6 +3918,113 @@ section.home-carousel .swiper-slide img {
 }
 /* tablet media query */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* footer */
+  .footer-section-heading {
+    font-size: 1.3rem;
+  }
+
+  .footer-section-payment-icons {
+    gap: 10px;
+  }
+
+  .footer-section-payment-icon {
+    font-size: 20px;
+  }
+
+  .footer-section-legal-links {
+    justify-content: center;
+  }
+
+  .footer-section-legal-item {
+    padding: 0 10px;
+  }
+  /* contact page */
+  .fireworks-contact .fireworks-contact-title {
+    font-size: 1.75rem;
+  }
+
+  .fireworks-contact .fireworks-contact-subtitle {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .fireworks-contact .fireworks-contact-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .fireworks-contact .fireworks-contact-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .fireworks-contact .fireworks-contact-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .fireworks-contact .fireworks-contact-card-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .fireworks-contact .fireworks-contact-hours-item {
+    flex-direction: column;
+    padding: 0.75rem 0;
+  }
+
+  .fireworks-contact .fireworks-contact-map-wrapper {
+    min-height: 250px;
+  }
+
+  .fireworks-contact .fireworks-contact-directions-btn {
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta {
+    padding: 1.5rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta h3 {
+    font-size: 1.25rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta p {
+    font-size: 0.9rem;
+  }
+
+  .fireworks-contact .fireworks-contact-cta-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  /* safety page */
+  .safety-guidelines {
+    padding: 60px 0;
+  }
+
+  .safety-guidelines .section-title {
+    font-size: 36px;
+  }
+
+  .safety-guidelines .safety-guidelines-column {
+    padding: 25px;
+  }
+
+  .safety-guidelines .safety-guidelines-card {
+    width: calc(50% - 20px);
+    height: 200px;
+  }
+
+  .safety-guidelines .safety-guidelines-card-title {
+    font-size: 16px;
+  }
+
+  .safety-guidelines .safety-guidelines-card-text {
+    font-size: 13px;
+  }
   /* about brands */
   .brands-section .brands-section-title {
     font-size: 2.5rem;
